@@ -1,0 +1,24 @@
+## Project Architecture
+
+```text
+CSV Dataset
+     |
+     v
+Pandas Data Loading
+     |
+     v
+Preprocessing Pipeline
+(SimpleImputer + OneHotEncoder)
+     |
+     v
+Ridge Regression Model
+     |
+     v
+Joblib Serialized Model
+     |
+     v
+FastAPI REST API
+     |
+     v
+JSON Prediction Response
+```
