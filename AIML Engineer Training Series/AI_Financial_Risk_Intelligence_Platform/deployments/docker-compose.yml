@@ -1,0 +1,14 @@
+services:
+  api:
+    image: credit-risk-api:latest
+    container_name: credit-risk-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  dashboard:
+    image: credit-risk-dashboard:latest
+    container_name: credit-risk-dashboard
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

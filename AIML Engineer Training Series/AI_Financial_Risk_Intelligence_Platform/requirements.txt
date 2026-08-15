@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+joblib
+shap==0.45.1
+matplotlib
+pytest
+httpx
